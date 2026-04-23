@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  myfirst-api-server:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2026-04-23T11:38:11.604522+09:00"
+    description: A simple Helm chart for learning (Kubernetes API server deployment)
+    digest: f818ca98db623376c51d25f2be178831728c2e14c6a1c3ca83b7b789d35777b9
+    name: myfirst-api-server
+    type: application
+    urls:
+    - https://hyeonyway.github.io/mycharts/myfirst-api-server-0.0.2.tgz
+    version: 0.0.2
+generated: "2026-04-23T11:38:11.604056+09:00"
