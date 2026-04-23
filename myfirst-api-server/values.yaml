@@ -5,7 +5,7 @@
 
 # 사용자 ID (리소스 이름 앞에 붙는 prefix)
 # 예) sk199 → sk199-myfirst-api-server
-userName: "sk199"
+userName: "sk099"
 
 # 파드 레플리카 수
 replicaCount: 1
@@ -13,7 +13,7 @@ replicaCount: 1
 # 컨테이너 이미지 설정
 image:
   repository: amdp-registry.skala-ai.com/skala25a  # 레지스트리/프로젝트
-  name: sk199-myfirst-api-server                    # 이미지 이름
+  name: sk099-myfirst-api-server                    # 이미지 이름
   tag: "1.0.0"                                      # 이미지 태그
   pullPolicy: Always
 
@@ -28,7 +28,7 @@ ingress:
   className: "public-nginx"
   # 최종 host = {{ userName }}-{{ host }}
   # 예) sk199-ingress.skala25a.project.skala-ai.com
-  host: "ingress.skala25a.project.skala-ai.com"
+  host: "sk099-ingress.skala25a.project.skala-ai.com"
   tls:
     enabled: true
     clusterIssuer: "letsencrypt-prod"
